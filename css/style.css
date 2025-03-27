@@ -1,0 +1,138 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.corte {
+    width: 100%;
+    height: auto;
+}
+
+/* VARIABLES */
+:root {
+    --text-color: rgba(118, 118, 118, 1);
+    --body-color: rgba(249, 249, 249, 1);
+    --title-color: rgba(38, 25, 50, 1);
+    --base-color: rgba(161, 82, 239, 1);
+    --text-color-ligth: rgba(249, 249, 249, 1);
+
+}
+
+/* BASE */
+body {
+    font: 400 1rem "DM Sans", sans-serif;
+    color: var(--text-color);
+    background: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1  {
+    font: 700 1.875rem "Poppins", sans-serif;
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+.button {
+    background-color: var(--base-color);
+    color: var(--text-color-ligth);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: .25rem;
+    transition: background 0.3s;
+}
+
+button {
+    touch-action: manipulation;
+}
+
+button:active {
+    background: rgba(130, 42, 210, 1);
+}
+
+header {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font: 700 1.31rem "Poppins", sans-serif;
+}
+
+a {
+    color: var(--title-color);
+}
+
+a .palavra2 {
+    color: var(--base-color);
+}
+
+.container {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+/* HOME */
+#home .container{
+    margin: 0;
+}
+
+#home .image {
+    position: relative;
+}
+
+#home .image::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(211, 202, 221, 1);
+    position: absolute;
+    top: -16.8%;
+    left: 16.7%;
+    z-index: 0;
+    border-radius: .25rem;
+    font: 500 1rem "DM Sans", sans-serif;
+}
+
+#home .image img {
+    position: relative;
+    right: 2.93rem;
+    border-radius: .25rem;
+}
+
+#home .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+}
+
+#home .text h1 {
+    margin-bottom: 1rem;
+}
+
+#home .text p {
+    margin-bottom: 2rem;
+}
