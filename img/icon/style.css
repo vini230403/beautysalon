@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?spe882');
-  src:  url('fonts/icomoon.eot?spe882#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?spe882') format('truetype'),
-    url('fonts/icomoon.woff?spe882') format('woff'),
-    url('fonts/icomoon.svg?spe882#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?az9iud');
+  src:  url('fonts/icomoon.eot?az9iud#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?az9iud') format('truetype'),
+    url('fonts/icomoon.woff?az9iud') format('woff'),
+    url('fonts/icomoon.svg?az9iud#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,18 +26,21 @@
 }
 
 .icon-phone:before {
+  content: "\e908";
+}
+.icon-github:before {
   content: "\e900";
 }
-.icon-close:before {
+.icon-linkedin:before {
   content: "\e901";
 }
-.icon-cosmetic:before {
+.icon-arrow-up:before {
   content: "\e902";
 }
-.icon-facebook:before {
+.icon-close:before {
   content: "\e903";
 }
-.icon-instagram:before {
+.icon-cosmetic:before {
   content: "\e904";
 }
 .icon-mail:before {
@@ -50,14 +53,11 @@
   content: "\e907";
 }
 .icon-trim:before {
-  content: "\e908";
-}
-.icon-whatsapp:before {
   content: "\e909";
 }
-.icon-woman-hair:before {
+.icon-whatsapp:before {
   content: "\e90a";
 }
-.icon-youtube:before {
+.icon-woman-hair:before {
   content: "\e90b";
 }
